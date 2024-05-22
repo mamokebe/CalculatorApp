@@ -63,3 +63,32 @@ button:active{
 .operator-btn-c:active{
   background-color: hsl(344, 64%, 60%);
 }
+/*----------------------css for small screen --------*/
+@media only screen and (max-width: 600px){
+  body{
+    
+    height: 70vh;
+  }
+  #calculator{
+    max-width: 250px;
+  }
+  #display{
+    width: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: center ;
+  }
+  #keys{
+    gap: 8px;
+    padding: 20px;
+  }
+  button{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    font-size: 1.5rem;
+    
+  }
+}
+
